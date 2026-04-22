@@ -1,0 +1,40 @@
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: radial-gradient(circle at top, rgba(124,58,237,0.3), #050508);
+  color: white;
+}
+
+.topbar {
+  display:flex;
+  justify-content:space-between;
+  padding:15px 20px;
+  background: rgba(0,0,0,0.4);
+  backdrop-filter: blur(10px);
+}
+
+.logo {
+  font-weight:bold;
+  color:#a78bfa;
+}
+
+nav a {
+  margin: 0 10px;
+  color:#ccc;
+  text-decoration:none;
+}
+
+.hero {
+  text-align:center;
+  padding:80px 20px;
+}
+
+button {
+  padding:10px 20px;
+  border:none;
+  border-radius:12px;
+  background: linear-gradient(to right,#a855f7,#d946ef);
+  color:white;
+  cursor:pointer;
+}
